@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Order System - Customer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>-RESTORAN AYAM GEPUK NGENCES-</h1>
+    <div class="typewritter" id="typewriter"></div>
+    <nav> 
+        <a href="owner.html" class="button">Owner Login</a> 
+        <a href="screen.html" class="button">Current Order [Live updates]</a> 
+    </nav>
+
+    <div class="menu">
+        
+        <h2>Menu</h2>
+        <div id="customer-menu"></div>
+    </div>
+
+    <div class="order-summary">
+        <h2>Order Summary</h2>
+        <ul id="order-list"></ul>
+        <p>Total: $<span id="total">0</span></p>
+        <div id="orderForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="meja">Meja:</label>
+                <input type="text" id="meja" meja="meja" required><br><br>
+                <label for="special">Special Request:</label>
+                <input type="text" id="special" special="special" ><br><br>
+        </div>
+        <button onclick="clearOrder()">Clear Order</button>
+        <button onclick="submitOrder()">Submit Order</button>
+        
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+<footer>
+    <p><b>Little Ngences X Ayam Gepuk</b></p>
+    <p>&copy; 2024 electricaltechnologymy. All rights reserved.</p>
+    <p> 
+        
+        <a href="https://wa.me/+60176977263">Contact Us</a> |
+        <a href="https://www.instagram.com/littlengencescoffee?igsh=MWZhZmM4YXcyc2Fraw==">Instagram</a> |
+        <a href="https://www.tiktok.com/@little.ngences.co?_t=8nzZDYmHXhg&_r=1">Tiktok</a> |
+        <a href="https://batugajahdev.wixstudio.io/little-ngences">Visit Little Ngences</a>
+    </p>
+    
+</footer>
+</html>
